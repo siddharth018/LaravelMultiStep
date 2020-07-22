@@ -3,21 +3,38 @@
 </p>
 
 ## About
-First Step: download in your system.
+1st Step: download in your system.
 
-git clone https://github.com/siddharth018/laravel7EmailVerification
+git clone https://github.com/siddharth018/laraveldatatablefilter.git
 
-cd laravel7EmailVerification
+cd laraveldatatablefilter
 
 composer install
 
-Second Step: Configure your SMTP from .env file
+2nd Step: Configure your database from .env file
 
-Step third: Run server
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel_blog
+DB_USERNAME=root
+DB_PASSWORD=root@123
+
+3rd Step: Install composer
+
+composer install
+
+4th Step: Add Dummy Records
+
+php artisan tinker
+factory(App\User::class, 100)->create();
+
+5th step: Run server
 
 php artisan serve
 
-
+## Read More
+(https://realprogrammer.in/laravel-datatables-filter-with-dropdown).
 
 ## Youtube
 Join in youtube
