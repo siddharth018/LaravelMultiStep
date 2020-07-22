@@ -11,7 +11,7 @@ cd laraveldatatablefilter
 
 composer install
 
-2nd Step: Configure your database from .env file
+<h2>2nd Step: </h2> Configure your database from .env file
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
