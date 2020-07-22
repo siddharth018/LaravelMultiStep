@@ -3,7 +3,7 @@
 </p>
 
 ## About
-<h2>Step 1: </h2>  download in your system.
+<h2>Step 1: download in your system.</h2>  
 
 git clone https://github.com/siddharth018/laraveldatatablefilter.git
 
@@ -11,7 +11,7 @@ cd laraveldatatablefilter
 
 composer install
 
-<h2>Step 2: </h2> Configure your database from .env file
+<h2>Step 2: Configure your database from .env file</h2> 
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -20,16 +20,16 @@ DB_DATABASE=laravel_blog
 DB_USERNAME=root
 DB_PASSWORD=root@123
 
-<h2>Step 3: </h2>  Install composer
+<h2>Step 3: Install composer</h2> 
 
 composer install
 
-<h2>Step 4: </h2>  Add Dummy Records
+<h2>Step 4: Add Dummy Records</h2>  
 
 php artisan tinker
 factory(App\User::class, 100)->create();
 
-<h2>Step 5: </h2>  Run server
+<h2>Step 5: Run server</h2>  
 
 php artisan serve
 
