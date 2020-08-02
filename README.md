@@ -5,9 +5,9 @@
 ## About
 <h2>Step 1: download in your system.</h2>  
 
-git clone https://github.com/siddharth018/laraveldatatablefilter.git
+git clone https://github.com/siddharth018/LaravelMultiStep.git
 
-cd laraveldatatablefilter
+cd LaravelMultiStep
 
 composer install
 
@@ -29,19 +29,9 @@ DB_PASSWORD=root@123
 
 composer install
 
-<h2>Step 4: Add Dummy Records</h2>  
-
-php artisan tinker
-
-factory(App\User::class, 100)->create();
-
-<h2>Step 5: Run server</h2>  
+<h2>Step 4: Run server</h2>  
 
 php artisan serve
-
-## Read More
-
-(https://realprogrammer.in/laravel-datatables-filter-with-dropdown).
 
 ## Youtube
 Join in youtube
