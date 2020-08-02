@@ -17,7 +17,7 @@
                     <table class="table">
                         <thead class="thead-dark">
                         <tr>
-                            <th scope="col">#</th>
+                            <th scope="col">Id</th>
                             <th scope="col">Product Name</th>
                             <th scope="col">Product Description</th>
                             <th scope="col">Stock</th>
