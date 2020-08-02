@@ -1,6 +1,3 @@
-<p align="center"><img src="https://raw.githubusercontent.com/siddharth018/LaravelMultiStep/master/realprogrammer.png" width="400"></p>
-
-
 <p align="center"><img src="https://raw.githubusercontent.com/siddharth018/LaravelMultiStep/master/multi.png" width="100%"></p>
 </p>
 
