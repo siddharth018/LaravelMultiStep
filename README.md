@@ -6,27 +6,25 @@
 
 git clone https://github.com/siddharth018/LaravelMultiStep.git
 
-cd LaravelMultiStep
-
-composer install
+    cd LaravelMultiStep
 
 <h2>Step 2: Configure your database from .env file</h2> 
 
-DB_CONNECTION=mysql
+    DB_CONNECTION=mysql
 
-DB_HOST=127.0.0.1
+    DB_HOST=127.0.0.1
 
-DB_PORT=3306
+    DB_PORT=3306
 
-DB_DATABASE=laravel_blog
+    DB_DATABASE=laravel_blog
 
-DB_USERNAME=root
+    DB_USERNAME=root
 
-DB_PASSWORD=root@123
+    DB_PASSWORD=root@123
 
 <h2>Step 3: Migrate</h2> 
 
-php artisan migrate
+    php artisan migrate
 
 <h2>Step 4: Install composer</h2> 
 
