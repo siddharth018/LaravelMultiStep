@@ -24,13 +24,21 @@ DB_USERNAME=root
 
 DB_PASSWORD=root@123
 
-<h2>Step 3: Install composer</h2> 
+<h2>Step 3: Migrate</h2> 
 
-composer install
+php artisan migrate
 
-<h2>Step 4: Run server</h2>  
+<h2>Step 4: Install composer</h2> 
 
-php artisan serve
+    composer install
+
+<h2>Step 5: key generate</h2> 
+
+    php artisan key:generate
+
+<h2>Step 6: Run server</h2>  
+
+    php artisan serve
 
 ## Youtube
 Join in youtube
